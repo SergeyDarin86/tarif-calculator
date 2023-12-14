@@ -7,6 +7,7 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
 
 /**
  * Класс запускающий приложение
+ *
  */
 @SpringBootApplication(scanBasePackages = { "ru.fastdelivery" })
 @ConfigurationPropertiesScan(value = { "ru.fastdelivery.properties" })
